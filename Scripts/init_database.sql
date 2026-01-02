@@ -24,3 +24,18 @@ END;
 GO
 
 -- Create Database 'DataWarehouse' database
+Create database DataWarehouse;
+Go
+
+USE DataWarehouse;
+Go
+
+-- Create Schemas
+Create Schema Bronze;
+Go
+Create Schema Silver;
+Go
+Create Schema Gold;
+Go  -- Go in SQL is like a separator so it tells SQL first execute completely the first command before go to the next one
+
+
