@@ -1,4 +1,4 @@
-*/
+/*
   SQL Scripts : Create Bronze Tables
 =====================================================================================================
 Script Purpose:
@@ -8,7 +8,7 @@ Run this script to re-define the DDL structue of 'bronze' Tables
 ======================================================================================================
 */
 
-  if OBJECT_ID('Bronze.crm_cust_info', 'U') is not null  
+if OBJECT_ID('Bronze.crm_cust_info', 'U') is not null  
 	drop table Bronze.crm_cust_info;
 create table Bronze.crm_cust_info(
 	cst_id int,
